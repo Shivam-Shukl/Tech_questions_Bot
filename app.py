@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import requests, html, random, json
+import requests, html, random, json, os
 
 app = Flask(__name__)
 
@@ -104,4 +104,5 @@ def reveal_or_skip_answer(session_id, reveal: bool):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Support for Render dynamic port
+    app.run(debug=False, host='0.0.0.0', port=port)
