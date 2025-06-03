@@ -98,12 +98,21 @@ A
 Yes
 ```
 ---
+### 📁 Project Structure
 
+```bash
+Tech_questions_Bot/
+├── app.py               # Main Flask app with webhook logic
+├── requirements.txt     # Dependencies
+├── render.yaml          # (Optional) Render deploy config
+└── Screenshot*.png      # Bot demo screenshot
 
-- Create a bot via [BotFather](https://t.me/BotFather)
-- Name: `ramukakabot`
-- Username: `@RAmmmu_kaka_bot`
-- Connect to Dialogflow via **Integrations → Telegram**
+```
+---
+### 🧑‍💻 Author
+
+Shivam Shukla
+Feel free to connect with me on LinkedIn or GitHub
 
 ---
 
