@@ -15,6 +15,13 @@ The telegram bot name at telgram.
 
 ---
 
+## 📺 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/H7RFMYL9KSk/0.jpg)](https://youtu.be/H7RFMYL9KSk)
+
+---
+
+
 ## 🧠 Features
 
 - Fetches tech-based MCQs (CS category) via [Open Trivia DB](https://opentdb.com/)
