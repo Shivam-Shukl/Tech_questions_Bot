@@ -124,7 +124,8 @@ Tech_questions_Bot/
 ### 🧑‍💻 Author
 
 - #### Shivam Shukla
-- Feel free to connect with me on LinkedIn or GitHub
+- Feel free to connect with me on 💼 [LinkedIn](https://www.linkedin.com/in/shivam-shukla-a462b3223/) 
+
 
 ---
 
