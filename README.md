@@ -57,13 +57,11 @@ Visit: http://localhost:5000
 
 #### Option A: Manual Deploy
 
--Login to Render
-
--Click "New Web Service" → Connect to this repo
-
--Use:
-   -Build Command: pip install -r requirements.txt
-   -Start Command: python app.py
+- Login to Render
+- Click "New Web Service" → Connect to this repo
+- Use:
+   - Build Command: pip install -r requirements.txt
+   - Start Command: python app.py
 
 #### Option B: Auto Deploy using render.yaml
 
