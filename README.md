@@ -9,9 +9,9 @@ A Telegram-integrated chatbot that asks random technical multiple-choice questio
 ### Interview_questions
 The telegram bot name at telgram.
 
-<img src="https://github.com/user-attachments/assets/e692603f-977f-4ac4-8ecc-8c8f62b13600" width="600"/>
+<img src="https://github.com/user-attachments/assets/8c9a192b-5ad8-4be8-897d-7b4f2d44355e" width ="1000"/>
 
-<img src="https://github.com/user-attachments/assets/e692603f-977f-4ac4-8ecc-8c8f62b13600" width="600"/>
+<img src="https://github.com/user-attachments/assets/541f1443-60e3-4bd4-a2b0-415d1ce5b49f" width="1000"/>
 
 ---
 
