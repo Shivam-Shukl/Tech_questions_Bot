@@ -34,7 +34,71 @@ A Telegram-integrated chatbot that asks random technical multiple-choice questio
 
 ## 🚀 Setup & Deployment
 
-### 1️⃣ Clone the Repository
+### 1 Clone the Repository
 ```bash
 git clone https://github.com/yourusername/Tech_questions_Bot.git
 cd Tech_questions_Bot
+```
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Create `main.py` with this code
+
+```bash
+python app.py
+```
+
+---
+Visit: http://localhost:5000
+### 4. Deploy on Render
+
+#### Option A: Manual Deploy
+
+-Login to Render
+-Click "New Web Service" → Connect to this repo
+-Use:
+   -Build Command: pip install -r requirements.txt
+   -Start Command: python app.py
+
+#### Option B: Auto Deploy using render.yaml
+
+Make sure your repo includes the following:
+
+```yaml
+# render.yaml
+services:
+  - type: web
+    name: tech-question-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: FLASK_ENV
+        value: production
+
+```
+
+---
+
+### 5. Setup Dialogflow Webhook
+
+- Go to Dialogflow → Fulfillment
+- Enable webhook and paste your Render deployment URL (e.g. `https://your-bot.onrender.com`)
+- Go to Intents > Currency Converter
+  - Use parameters: `unit-currency`, `currency-name`
+- Enable webhook call for this intent
+
+---
+
+### 6. Connect with Telegram
+
+- Create a bot via [BotFather](https://t.me/BotFather)
+- Name: `ramukakabot`
+- Username: `@RAmmmu_kaka_bot`
+- Connect to Dialogflow via **Integrations → Telegram**
+
+---
+
