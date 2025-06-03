@@ -65,7 +65,7 @@ Visit: http://localhost:5000
 
 #### Option B: Auto Deploy using render.yaml
 
-Make sure your repo includes the following:
+- Make sure your repo includes the following:
 
 ```yaml
 # render.yaml
@@ -83,17 +83,22 @@ services:
 
 ---
 
-### 5. Setup Dialogflow Webhook
-
-- Go to Dialogflow → Fulfillment
-- Enable webhook and paste your Render deployment URL (e.g. `https://your-bot.onrender.com`)
-- Go to Intents > Currency Converter
-  - Use parameters: `unit-currency`, `currency-name`
-- Enable webhook call for this intent
-
+### 5. Webhook Integration
+- Go to Dialogflow Console
+- Enable Webhook Fulfillment
+- Use your Render-deployed HTTPS URL (e.g. https://your-app.onrender.com/)
+- Attach this webhook to your Get_Tech_Question intent
 ---
 
-### 6. Connect with Telegram
+### 6.Sample Commands (Telegram)
+```text
+/start
+get me a question
+A
+Yes
+```
+---
+
 
 - Create a bot via [BotFather](https://t.me/BotFather)
 - Name: `ramukakabot`
