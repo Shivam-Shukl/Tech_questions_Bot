@@ -4,9 +4,12 @@ A Telegram-integrated chatbot that asks random technical multiple-choice questio
 
 ---
 
-## 📸 Demo Screenshot
+## 📸 Screenshots
 
-![Tech Questions Bot Demo](Screenshot%202025-06-03%20111603.png)
+### Interview_questions
+The telegram bot name at telgram.
+
+<img src="https://github.com/user-attachments/assets/e692603f-977f-4ac4-8ecc-8c8f62b13600" width="600"/>
 
 ---
 
