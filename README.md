@@ -111,8 +111,8 @@ Tech_questions_Bot/
 ---
 ### 🧑‍💻 Author
 
-Shivam Shukla
-Feel free to connect with me on LinkedIn or GitHub
+- #### Shivam Shukla
+- Feel free to connect with me on LinkedIn or GitHub
 
 ---
 
