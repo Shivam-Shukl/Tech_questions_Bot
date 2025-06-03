@@ -11,6 +11,8 @@ The telegram bot name at telgram.
 
 <img src="https://github.com/user-attachments/assets/e692603f-977f-4ac4-8ecc-8c8f62b13600" width="600"/>
 
+<img src="https://github.com/user-attachments/assets/e692603f-977f-4ac4-8ecc-8c8f62b13600" width="600"/>
+
 ---
 
 ## 🧠 Features
