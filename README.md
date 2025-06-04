@@ -16,7 +16,7 @@ The telegram bot name at telgram.
 ---
 
 ## 📺 Demo Video
-
+- Please click the below image to visit to video.
 <a href="https://youtu.be/H7RFMYL9KSk" target="_blank">
   <img src="https://img.youtube.com/vi/H7RFMYL9KSk/0.jpg" width="800"/>
 </a>
