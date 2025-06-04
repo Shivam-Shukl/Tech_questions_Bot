@@ -17,15 +17,11 @@ The telegram bot name at telgram.
 
 ## 📺 Demo Video
 
-## 📺 Demo Video
-
 <a href="https://youtu.be/H7RFMYL9KSk" target="_blank">
   <img src="https://img.youtube.com/vi/H7RFMYL9KSk/0.jpg" width="1000"/>
 </a>
 
-
 ---
-
 
 ## 🧠 Features
 
